@@ -9,7 +9,7 @@ const sequelize = new Sequelize(process.env.DATABASE_URL, {
 });
 
 // Import the Contact model
-const Contact = require('./contact')(sequelize, DataTypes);
+const Contact = require('./Contact')(sequelize, DataTypes);
 
 // Define the db object
 const db = {};
