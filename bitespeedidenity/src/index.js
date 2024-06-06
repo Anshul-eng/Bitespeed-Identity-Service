@@ -22,4 +22,4 @@ db.sequelize.authenticate()
     console.error('Unable to connect to the database:', err);
   });
 
-  sdfds
+  
